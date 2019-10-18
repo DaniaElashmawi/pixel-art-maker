@@ -1,0 +1,90 @@
+body 
+{
+  text-align: center;
+  background-color: gainsboro;
+}
+
+
+h1 
+{
+  font-family: Monoton;
+  font-size: 70px;
+  margin: 0.2em;
+}
+
+
+h2 
+{
+  margin: 1em 0 0.25em;
+}
+
+
+h2:first-of-type 
+{
+  margin-top: 0.5em;
+}
+
+
+tr,td 
+{
+  border: 1px solid black;
+}
+
+
+table
+{
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+}
+
+
+tr
+{
+  height: 20px;
+}
+
+
+td 
+{
+  width: 20px;
+}
+
+
+input[type="number"] 
+{
+  border-radius: 5px;
+  width: 3em; 
+  outline: none;
+}
+
+
+input[type="number"]:focus
+{
+    border: 2px solid black;
+}
+
+
+input[type="button"]
+{
+    padding: 10px;
+    border: solid black 1px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+input[type="color"]
+{
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: solid black 1px;
+    background-color: white;
+}
